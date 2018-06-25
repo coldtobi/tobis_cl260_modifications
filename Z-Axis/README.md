@@ -58,7 +58,7 @@ Quantity | Part                                                       | Comment
          | * Printed Parts (not in the CAD)                           |
        2 | Holder for Stepper Motors                                  | File: Motorhalter.fcstd
          | * Others * (some not in the CAD )                          |
-       1 | Glassplate 255x255x5 mm                                    |
+       1 | Glassplate 255x255x5 mm                                    | Borosilicate glass recommended to avoid cracking due to thermal stress. 
        1 | Heatbed MK3 Aluminium 3.2 mm thick                         | http://reprap.org/wiki/PCB_Heatbed#MK3_ALU-Heatbed_Dual_Power
        1 | NEMA 17 Stepper Motor + Cable.                             | 17HS4401 <-- I ordered one of those
        1 | A4988 Polulu Stepper Driver Module                         | (optional)
