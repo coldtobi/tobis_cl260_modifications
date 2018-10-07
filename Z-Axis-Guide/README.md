@@ -44,16 +44,16 @@ need to print, in the orientation that I've used to print mine.
 
 ## BOM ##
 
-Quantity | Part                                                       | Comment
----------|------------------------------------------------------------|-------
-         | *Printed Parts*  (names from the CAD model)                |
-       2 | printable/Z-Axis_Guide                                     |
-         | *Nuts and Bolts*                                           |
-       4 | M3 metal inserts (M3, OD=4.2 mm, lenght 3mm)               | e.g https://tinyurl.com/y9mz845h
-       4 | M3x10 hex screws                                           |
-         | *For assembly to the printer frame*                        | not in the drawing
-       4 | M4x10 hex screws                                           |
-       4 | M4 T-Nuts for your frame                                   |
+| Quantity | Part                                         | Comment                          |
+|----------|----------------------------------------------|----------------------------------|
+|          | *Printed Parts*  (names from the CAD model)  |                                  |
+| 2        | printable/Z-Axis_Guide                       |                                  |
+|          | *Nuts and Bolts*                             |                                  |
+| 4        | M3 metal inserts (M3, OD=4.2 mm, lenght 3mm) | e.g https://tinyurl.com/y9mz845h |
+| 4        | M3x10 hex screws                             |                                  |
+|          | *For assembly to the printer frame*          | not in the drawing               |
+| 4        | M4x10 hex screws                             |                                  |
+| 4        | M4 T-Nuts for your frame                     |                                  |
 
 ## Assembly ##
 
