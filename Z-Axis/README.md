@@ -98,6 +98,11 @@ to be cut: 3x M5 for the bed-leveling screws and 3x M4 for the glass-clamps.
 Precission is key when drilling. I recommend a drill stand for all the drilling
 and using proper marking out equipment.
 
+## CL-260 MAX ##
+
+I was told that the CL-260 MAX has different dimensions (400 mm x 400 mm), so this mod might not be 
+applicable for this model without tweaks.
+
 ## Bugs ##
 
 Nothing without flaws:
