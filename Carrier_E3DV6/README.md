@@ -39,6 +39,50 @@ need to print (the numbers at the end say  how often you gonna need it)
 The model is still missing the fanducts... the original FreeCAD model broke and I 
 still have to reconstruct it... 
 
+### Parts and Printing ###
+
+#### HET 1 ####
+
+This is the main part of the carrier. It can hold one or two LM8UU bearings,
+according to your taste.It runs fine with just one, this is the configuration
+I'm using.
+
+The metal inserts are ment to be "melt" into this part of the holder).
+Put on a screw, heat up the screw and push into the plasic part. 
+
+Printing should be possible without supports; I've used the orientiation as
+shown in the "printables" section of the model (and how the stl are exported)
+
+#### HET 2 ####
+
+The second part clamps the E3DV6 to the first part, using 2 screws. The other two holes
+take the top screws of the 40x40 fan, which cools the heatsink.
+
+#### FanShroud ####
+
+Well, it goes around the heatsink… It takes the other two screws of the fan to fix everything
+together...
+
+#### Clamp ####
+
+The clamp (not shown on the screenshot) was intended to house a piezo for piezo-
+based z-homing. I never came around to actually use this…
+In other words, you probably won't need it, and it likely needs tweaks to work
+for the original purpose. 
+
+#### Fanduct ####
+
+The fanduct in the model is a two piece design: The main body and the outlet.
+Unfortunatly the original FreeCAD model broke, so it is only there without the
+possiblity to redo. There was also a second fanduct, but its model is damaged
+beyond repair in the same FreeCAD file, so it needs to be redesigned later.
+
+However, I'm ousing it only with the (included) Fanduct, so the second one is
+optional.
+
+I recommend to use a sleeve for the hotend, to thermally isolate it and prevent
+cooling by the airflow.
+
 ## 3rd Party Models ##
 
 The FreeCAD Model may also contain a few external objects, listed below with their license:
@@ -47,10 +91,13 @@ to the GPL license of the remaining work.)
 You can find the parts in the "3rd Party Models" Group of the FreeCAD file and as a subfolder
 in the git repository as source. 
 
-| Part           | License      | Author         | Source |
-|----------------|--------------|----------------|--------|
-| E3D_v6_To_Spec | CC BY 3.0    | lXGaimMasterXl | https://www.thingiverse.com/thing:341689 |
-| LM8UU          | CC BY 3.0    | 3DRap.it       | https://www.thingiverse.com/thing:1811769 |
+| Part            | License      | Author         | Source |
+|-----------------|--------------|----------------|--------|
+| E3D_v6_To_Spec  | CC BY 3.0    | lXGaimMasterXl | https://www.thingiverse.com/thing:341689 |
+| LM8UU           | CC BY 3.0    | 3DRap.it       | https://www.thingiverse.com/thing:1811769 |
+| 50mm radial fan | CC BY 3.0    | Brendon Tower  | https://www.thingiverse.com/thing:2717523 |
+
+
 
 ## BOM ##
 
@@ -71,12 +118,13 @@ in the git repository as source.
 |          | 40x40 mm Fan with its screws                  |                                  |
 | 2-4      | IGUS 15mm Linear bearings                     | There is place for 2 in series, but it also works with just one per axis.  |
 
+## TODO ##
+
+- Illustrate the screws and inserts in the CAD
+- Reconstruct the fanducts.
+- Make the Piezo thing (and make it working).
 
 
-## Assembly ##
-
-The metal inserts are ment to be "melt" into the main parts of the holder (HET1).
-Put on a screw, heat up the screw and push into the plasic part. 
 
 
 
