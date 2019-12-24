@@ -159,11 +159,10 @@ in the git repository as source.
 
 ## References ##
 
-[github] https://github.com/coldtobi/tobis_cl260_modifications
-[titan] https://e3d-online.com/titan-extruder
-[axisholder] https://www.thingiverse.com/thing:3141984
-[stepper] I'm using a NEMA 17 25mm pancake stepper with 1.8°/step. Make sure that the axle is long enough!
-(E3D documentation seems to suggest ~22.2mm)
-[metal inserts] available eg. at AliExpress. Outer Diameter around 4.15 mm, lenght 3mm.
+- [github] https://github.com/coldtobi/tobis_cl260_modifications
+- [titan] https://e3d-online.com/titan-extruder
+- [axisholder] https://www.thingiverse.com/thing:3141984
+- [stepper] I'm using a NEMA 17 25mm pancake stepper with 1.8°/step. Make sure that the axle is long enough! (E3D documentation seems to suggest ~22.2mm)
+- [metal inserts] available eg. at AliExpress. Outer Diameter around 4.15 mm, lenght 3mm.
  e.g https://tinyurl.com/y9mz845h
-[cooling] http://www.desiquintans.com/coolingtests and http://www.desiquintans.com/coolingtests2
+- [cooling] http://www.desiquintans.com/coolingtests and http://www.desiquintans.com/coolingtests2
