@@ -69,6 +69,12 @@ so not every hole is used.
 Prints without support. I recommend 3-4 perimeters,  20% infill and a 
 layer height of 0.2 mm.
 
+Note that the heater block is rotated by 90°. So if you use the silicon sock
+for the E3DV6 (you should!), the E3D logo will be sideways, not facing you.
+
+(Another note: the images shows an alternative cooling for the heatsink.
+The files for this will be released soonish.)
+
 ##### Bugs / known issues #####
 
 - Grub-Screws for bearing fixations not in the CAD.
@@ -162,7 +168,7 @@ in the git repository as source.
 - [github] https://github.com/coldtobi/tobis_cl260_modifications
 - [titan] https://e3d-online.com/titan-extruder
 - [axisholder] https://www.thingiverse.com/thing:3141984
-- [stepper] I'm using a NEMA 17 25mm pancake stepper with 1.8°/step. Make sure that the axle is long enough! (E3D documentation seems to suggest ~22.2mm)
+- [stepper] I'm using a NEMA 17 25mm pancake stepper with 1.8°/step. Make sure that the axle is long enough! (E3D documentation seems to suggest ~22.2mm) Hint: if it is becoming too hot, you can attach a fan to cool it. 
 - [metal inserts] available eg. at AliExpress. Outer Diameter around 4.15 mm, lenght 3mm.
  e.g https://tinyurl.com/y9mz845h
 - [cooling] http://www.desiquintans.com/coolingtests and http://www.desiquintans.com/coolingtests2
