@@ -26,7 +26,7 @@ the license grant above.
 ## CAD Model ##
 
 The CAD model can be opened using FreeCAD. It was developed using version 0.17
-on Debian. 
+on Debian. Version 2 was designed with 0.18.4.
 
 The CAD model ist structured in 3 parts: Design files, Assembly and Printables.
 The first section are the "raw" designs, suitable for modifications, the assembly
@@ -43,11 +43,13 @@ need to print (the numbers at the end say  how often you gonna need it)
 | 4        | printable/Belt_Tightener                       |                                  |
 | 4        | printable/Clamps                               |                                  |
 |          | *Nuts and Bolts*                               |                                  |
-| 18       | M3 metal inserts (M3, OD=4.2 mm, lenght 3mm)   | e.g https://tinyurl.com/y9mz845h |
+| 18       | M3 metal inserts (M3, OD=4.2 mm, lenght 3mm)   | e.g https://tinyurl.com/y9mz845h, 22 in Version 2 |
 | 16       | M3x15 hex screws                               |                                  |
-| 2        | M3 screws for endstop activation               |                                  |
-| 4        | M3 nut                                         |                                  |
+| 2        | M3 screws for endstop activation               | Only Version 1                   |
+| 4        | M3 nut                                         | Only Version 1                   |
 | 4        | M3x~25mm screw (for the belt tightener system) |                                  |
+| 4        | M3x~25mm screw (for the belt tightener system) |                                  |
+| 4        | M3 set screws  (to clamp the IGUS)             | Only Version 2                   |
 
 ## Assembly ##
 
@@ -57,4 +59,14 @@ site of the clamp and they will not be pulled out by the forces of the screw.
 (See the FreeCAD assembly part for an illustration)
 
 The remaining 2 inserts are for the one of the two holes on the "backside" of the main
-part. It can then hold a screw suitable to activate the endstop.
+part. It can then hold a screw suitable to activate the endstopa
+
+
+## Version 2 ##
+
+Version 2 has been remodeled to be a bit smaller than Version 1, to avoid that
+the belt pulls upward at the edges of the bed. Also, a set screw allows
+fixation of the IGUS bushings to allow a more loose fit of them.
+
+Version two is fully parametric using a FreeCAD Spreadsheet for all dimensions.
+
